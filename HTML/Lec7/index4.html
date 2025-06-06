@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Employee Details Form</h1>
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" name="Name" id="name" placeholder="Enter your Full name">
+        <br><br>
 
-    <label for="name">Full Name:</label>
-    <input type="text" name="Name" id="name" placeholder="Enter your Full name">
-    <br><br>
+        <label for="mail">Email:</label>
+        <input type="email" name="email" id="mail" placeholder="Enter your Email Address">
+        <br><br>
 
-    <label for="mail">Email:</label>
-    <input type="email" name="email" id="mail" placeholder="Enter your Email Address">
-    <br><br>
+        <label for="tele">Phone Number:</label>
+        <input type="tel" name="phone" id="tele" placeholder="Enter your phone number">
+        <br><br>
 
-    <label for="tele">Phone Number:</label>
-    <input type="tel" name="phone" id="tele" placeholder="Enter your phone number">
-    <br><br>
+        <span>Gender:</span>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="others">
+        <label for="others">Others</label>
+        <br><br>
 
-    <span>Gender:</span>
-    <input type="radio" name="gender" id="male">
-    <label for="male">Male</label>
-    <input type="radio" name="gender" id="female">
-    <label for="female">Female</label>
-    <input type="radio" name="gender" id="others">
-    <label for="others">Others</label>
-    <br><br>
+        <label for="title">Job Title:</label>
+        <input type="text" name="jobtitle" id="title" placeholder="Enter your job title">
+        <br><br>
 
-    <label for="title">Job Title:</label>
-    <input type="text" name="jobtitle" id="title" placeholder="Enter your job title">
-    <br><br>
+        <label for="dept">Department:</label>
+        <select name="departments" id="dept">
+            <option value="select" selected>Select Your department</option>
+            <option value="dept1">Department 1</option>
+            <option value="dept2">Department 2</option>
+            <option value="dept3">Department 3</option>
+            <option value="dept4">Department 4</option>
+        </select>
+        <br><br>
 
-    <label for="dept">Department:</label>
-    <select name="departments" id="dept">
-        <option value="select" selected>Select Your department</option>
-        <option value="dept1">Department 1</option>
-        <option value="dept2">Department 2</option>
-        <option value="dept3">Department 3</option>
-        <option value="dept4">Department 4</option>
-    </select>
-    <br><br>
+        <button type="submit">Submit</button>
 
-    <button type="submit">Submit</button>
+    </form>
+
 </body>
+
 </html>
