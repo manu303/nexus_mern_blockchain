@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home work</title>
+</head>
+<body>
+    <h1>Health Details Form</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="fname">Full Name:</label>
+            <input type="text" name="fullname" id="fname">
+            <br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="DOB" id="dob">
+            <br><br>
+
+            <label for="gender">Gender:</label>
+            <select name="Gender" id="gender">
+                <option value="" disabled selected>Select your gender</option>
+                <option value="male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select>
+            <br><br>
+
+            <label for="phn">Phone Number:</label>
+            <input type="tel" name="phone number" id="phn">
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Medical History</legend>
+
+            <label for="bgroup">Blood Group:</label>
+            <select name="BloodGroup" id="bgroup">
+                <option value="" disabled selected>Select your blood group</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+            </select>
+            <br><br>
+
+            <label>Do you wear contact lenses?</label>
+            <br>
+
+            <input type="radio" name="lenses?" id="yes" value="yes">
+            <label for="yes">Yes</label>
+            <br>
+
+            <input type="radio" name="lenses?" id="no" value="no">
+            <label for="no">No</label>
+            <br>
+            <br>
+
+            <label for="conditions">Pre-Existing Conditions:</label>
+            <br>
+            <textarea name="pre-existing conditions" id="conditions" placeholder="List any pre-existing medical conditions" rows="5" cols="50"></textarea>
+            <br><br>
+
+            <label>Allergies:</label>
+            <br>
+
+            <input type="checkbox" name="allergies" id="pollen" value="Pollen">
+            <label for="pollen">Pollen</label>
+            <br>
+
+            <input type="checkbox" name="allergies" id="peanuts" value="Peanuts">
+            <label for="peanuts">Peanuts</label>
+            <br>
+
+            <input type="checkbox" name="allergies" id="latex" value="Latex">
+            <label for="latex">Latex</label>
+            <br>
+
+            <input type="checkbox" name="allergies" id="none" value="None">
+            <label for="none">None</label>
+            <br><br>
+
+            <label for="currentmed">Current Medications:</label>
+            <br>
+            <textarea name="Current Medications" id="currentmed" placeholder="List any current medicatiosn" rows="5" cols="50" ></textarea>
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Emergency Contact</legend>
+
+            <label for="contact name">Emergency Contact Name:</label>
+            <input type="text" name="Emergency contact name" id="contact name">
+            <br><br>
+
+            <label for="contact phone">Emergency Contact Phone:</label>
+            <input type="tel" name="Emergency Contact Phone" id="contact phone">
+            <br><br>
+
+            <label for="contact relation">Relationship to Emergency Contact:</label>
+            <input type="text" name="Relationship to Emergency Contact" id="contact relkation">
+            <br><br>
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
